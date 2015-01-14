@@ -1,0 +1,781 @@
+﻿body {
+	background-color: #202328;
+	color: #DDD;
+	font-family: "Trebuchet MS",Tahoma,"Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+}
+
+p 
+{
+	color: #B39E71;
+}
+
+p.etched 
+{
+	background: transparent url(/Content/images/etched_box.gif) no-repeat right bottom;
+}
+
+p a, li a, dd a, cite a 
+{
+	color: #FFA740;
+}
+
+p.error {
+	color: #202328;
+	background-color: #D1B984;
+	border: 2px solid #00A0C6;
+}
+
+h1 
+{
+	font-family: "Trebuchet MS",Tahoma,"Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+	color: #00A0C6;
+}
+
+h2 
+{
+	font-family: "Trebuchet MS",Tahoma,"Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+	color: #00A0C6;
+}
+
+h3 
+{
+	border-bottom: 1px solid #333;
+	color: #B39E71;
+}
+
+h3 a  
+{
+	color: #00A0C6;
+}
+
+h3 a:hover { color: #ddd;}
+
+h3 a:visited a:active { color: #00A0C6; }
+
+ul.error 
+{
+	color: #202328;
+	background-color: #D1B984;
+	border: 2px solid #00A0C6;
+}
+
+
+p a:hover, p a:focus, dd a:hover, dd a:focus, cite a:hover, cite a:focus 
+{
+	color: #00A0C6;
+}
+
+strong 
+{
+	color: #FFF;
+}
+
+div.header
+{
+    background: #202328 url(/Content/images/header_bg.gif) no-repeat left -130px;
+    border-top: 4px solid #00A0C6;
+}
+
+div.middle
+{
+	background: #202328;
+}
+
+div.left
+{
+	background: #202328;
+}
+
+div.footer
+{
+	background: #3C424A url(/Content/images/footer_bg.gif) no-repeat 50% 0;
+}
+
+div.footer a 
+{
+	color: #B39E71;
+}
+
+
+div.links span 
+{
+	font-family: "Trebuchet MS",Tahoma,"Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+	color: #AAA;
+}
+
+div.links a 
+{
+	background: #202328 url(/Content/images/h5_bg.gif) no-repeat 0 50%;
+	border-bottom: 1px solid #555;
+	color: #B39E71;
+} 
+
+div.links a:hover, div.links a:focus 
+{
+	background: transparent url(/Content/images/leftlist_bullet_hover.gif) no-repeat 0px 50%;
+	color: #00A0C6;
+}
+
+
+h1 a 
+{
+	background: transparent url(/Content/images/header_h1.png) no-repeat left top;
+	color: #00A0C6;
+}
+
+div.navigation a, div.navigation li 
+{
+	background: #00A0C6 url(/Content/images/nav_left.gif) no-repeat left bottom;
+}
+
+div.navigation li.active, div.navigation li.active a 
+{
+	background: #00A0C6 url(/Content/images/nav_left_active.gif) no-repeat left bottom;
+}
+
+div.navigation a span, div.navigation li span 
+{
+	background: transparent url(/Content/images/nav_right.gif) no-repeat right bottom;
+	color: #DDD;
+}
+
+div.navigation li.active span 
+{
+	background: transparent url(/Content/images/nav_right_active.gif) no-repeat right bottom;
+	color: #EEE;
+}
+		
+div.cart 
+{
+	color: #B39E71;
+}
+
+div.search 
+{
+	color: #B39E71;
+}
+
+div.description
+{
+	color: #D1B984;
+}
+
+
+#my-title 
+{
+	color: #00A0C6;
+}
+
+.menuheader 
+{
+	background: #202328;
+	border-bottom: 2px solid #333;
+	color: #00A0C6;
+}
+
+div.left h2 
+{
+	background: #202328 url(/Content/images/h2_bg.gif) no-repeat 0 50%;
+	border-bottom: 1px solid #333;
+	color: #00A0C6;
+}
+
+div.left h2 span.right 
+{
+	color: #555;
+}
+
+div.left h3 
+{
+	background: #202328 url(/Content/images/h3_bg.gif) no-repeat 0 50%;
+	border-top: 2px solid #333;
+	border-bottom: 2px solid #333;
+	color: #B39E71;
+}
+
+div.left h4 
+{
+	color: #B39E71;
+}
+
+div.left h5 {
+	background: transparent url(/Content/images/h5_bg.gif) no-repeat 0 50%;
+	border-bottom: 1px solid #555;
+	color: #B39E71;
+}
+
+div.left h6 {
+	border-bottom: 1px solid #555;
+}
+
+div.msg {
+	background: #202328;
+	border-bottom: 1px solid #333;
+	color: #B39E71;
+}
+
+div.msg a {
+	color: #00A0C6;
+}
+
+blockquote {
+	background: transparent url(/Content/images/quote_left.gif) no-repeat 1px 0;
+}
+
+blockquote p {
+	background: transparent url(/Content/images/quote_right.gif) no-repeat right bottom;
+}
+
+blockquote p.source {
+	background: none;
+	color: #B39E71;
+}
+
+ul.bullet li {
+	background: transparent url(/Content/images/leftlist_bullet.gif) no-repeat 6px 50%;
+}
+
+dl.info dt {
+	background: transparent url(/Content/images/arrow_gray.gif) no-repeat 0 50%;
+	border-bottom: 1px dashed #444;
+	color: #00A0C6;
+}
+
+dl.info dd {
+	border-bottom: 1px dashed #444;
+	color: #D1B984;
+}
+
+dl.info dd a {
+	color: #D1B984;
+}
+
+dl.info dd a:hover, dl.info dd a:focus {
+	color: #FFA740;
+}
+
+input 
+{
+	border: 1px solid #D28D3B;
+	color: #FFFFFF;
+	background-color: #666;
+}
+
+ul.links li {
+	border-bottom: 1px dotted #555;
+}
+
+ul.links li:hover {
+	background: #333 url(/Content/images/footer_links.gif) no-repeat 235px 50%;
+}
+
+ul.links li a {
+	color: #00A0C6;
+}
+
+ul.links li a:hover, ul.links li a:focus {
+	color: #FFA740;
+}
+
+dl.pr dt {
+	color: #888;
+}
+
+dl.pr dd a, #footer p.pr a {
+	color: #00A0C6;
+}
+
+dl.pr dd a:hover, dl.pr dd a:focus, #footer p.pr a:hover, #footer p.pr a:focus {
+	color: #FFA740;
+}
+
+.link {
+	color: #00A0C6;
+}
+
+a.link {
+	background: transparent;
+	color: #00A0C6;
+}
+
+div.forgot {
+	background: #202328;
+	color: #D1B984;
+}
+
+div.forgot a {
+	color: #00A0C6;
+}
+
+.forgot a:hover { color: #ddd;}
+.forgot a:visited a:active { color: #00A0C6; }
+
+
+a.linklabel 
+{
+	color: #B39E71;
+}
+
+div.main
+{
+	background: #202328;
+}
+
+div.shoppingcart
+{
+	background: #202328;
+}
+
+div.mainsearch
+{
+	background: #202328;
+}
+
+div.somain
+{
+	background: #202328;
+}
+
+div.soright {
+	float: right;
+	width: 190pt;
+	font-size: 0.9em;
+	font-weight: normal;
+	margin-right: 10px;
+}
+
+div.right a, div.soright a  {
+	color: #B39E71;
+}
+
+div.freeshippingtitle
+{
+	color: #00A0C6;
+}
+
+div.stripecol
+{
+	border-top: 1px solid #D28D3B;
+}
+
+div.stripecol span 
+{
+	color: #B39E71;
+}
+
+div.stripecol2 span
+{
+	color: #B39E71;
+}
+
+div.stripecol a, div.stripecol2 a
+{
+	color: #00A0C6;
+}
+
+ul.search {
+	border-top: 1px solid #666;
+}
+
+ul.search li a  
+{
+	color: #B39E71;
+}
+
+.actions 
+{
+	border-top: 1px solid #333;
+}
+
+.button {
+	color: #ddd;
+}
+
+.radioStyle {
+	border: #000000 solid 1px;
+	background-color: #202328;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.productimage {
+	border:	2px solid #D28D3B;
+}
+
+div.details
+{
+	background: #202328;
+}
+
+div.shoppingcart
+{
+	background: #202328;
+}
+
+div.info
+{
+	font-family: "Trebuchet MS",Tahoma,"Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+	color: #AAA;
+}
+
+.righttitles 
+{
+	background: #202328;
+	color: #00A0C6;
+}
+
+.righttitles a
+{
+	color: #00A0C6;
+	text-decoration: none;
+}
+
+
+.details a,
+.shoppingcart a 
+{
+	color: #00A0C6;
+}
+
+.welcome a  
+{
+	color: #00A0C6;
+}
+
+.cart a  {
+	color: #00A0C6;
+}
+
+.cart a:hover { color: #ddd;}
+.cart a:visited a:active { color: #00A0C6; }
+
+.details .shoppingcart .cart .welcome a:hover { color: #ddd;}
+.details shoppingcart .cart .welcome a:visited a:active { color: #00A0C6; }
+
+span.welcome {
+	color: #AAA;
+}
+
+div.stripe
+{
+	background: #202328;
+	color: #D1B984;
+}
+
+div.indexstripe
+{
+	background: #202328;
+	color: #D1B984;
+}
+
+div.searchstripe a,
+div.stripe a 
+{
+	color: #00A0C6;
+}
+
+div.indexstripe a
+{
+	background-color: #777;
+	color: #ddd;
+	border: 1px solid #D28D3B;
+}
+
+.indexstripe a:hover, 
+.stripe a:hover, 
+.searchstripe a:hover 
+{ 
+    color: #ddd;
+}
+
+.indexstripe a:visited a:active, 
+.stripe a:visited a:active, 
+.searchstripe a:visited a:active 
+{ 
+    color: #00A0C6; 
+}
+
+div.cc
+{
+	background: #202328;
+}
+
+
+div.manufacturer
+{
+	border-bottom: 1px solid #D28D3B;
+	background: #202328;
+
+}
+
+div.manufacturer a {
+	background: transparent;
+	color: #00A0C6;
+}
+
+.manufacturer a:hover { color: #ddd;}
+.manufacturer a:visited a:active { color: #00A0C6; }
+
+
+div.featuredproduct
+{
+	background: #202328;
+}
+
+div.featuredheading
+{
+	font-family: "Trebuchet MS",Tahoma,"Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+}
+
+div.featuredtitle
+{
+	color:#D1B984;
+}
+
+div.signedin
+{
+	background: #202328;
+	color: #D1B984;
+}
+
+div.col1
+{
+	background: #202328;
+}
+
+div.col2
+{
+	color: #B39E71;
+	border-left: 1px solid #555;
+}
+
+.tiles a
+{
+	color: #00A0C6;
+}
+
+
+.frame a, .salesorderstripe a, .signedin a
+{
+	color: #00A0C6;
+}
+
+.tiles a:hover, 
+.frame a:hover, 
+.salesorderstripe a:hover, 
+.signedin a:hover  
+{ 
+	color: #ddd;
+}
+
+.tiles a:visited a:active, 
+.frame a:visited a:active, 
+.salesorderstripe a:visited a:active  
+{ 
+	color: #00A0C6; 
+}
+
+div.checkoutright
+{
+	border: 0px solid #333;
+	color: #B39E71;
+}
+
+div.salesorderstripe
+{
+	background: #202328;
+	color: #D1B984;
+}
+
+div.salesorderCol
+{
+	border-top: 1px solid #D28D3B;
+}
+
+.stripe span, 
+.searchstripe span, 
+.salesorderstripe span, 
+.salesorderCol span
+{
+	color: #B39E71;
+}
+
+#confirmModalOverlay 
+{
+	background-color:#eee; 
+	cursor:wait;
+}
+
+#confirmModalContainer 
+{
+	background-color: #202328;
+	color: #AAA;
+	font-family: "Trebuchet MS",Tahoma,"Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+	border: 2px solid #D28D3B;
+}
+
+#confirmModalContainer .header 
+{
+	color: #00A0C6;
+}
+
+#confirmModalContainer .message 
+{
+	color: #AAA; 
+}
+
+#confirmModalContainer .buttons div 
+{
+	background-color: #666;
+	color: #ddd;
+	border:1px solid #bbb; 
+} 
+
+#confirmModalContainer a.modalCloseX,
+#confirmModalContainer a.modalCloseX:link,
+#confirmModalContainer a.modalCloseX:active,
+#confirmModalContainer a.modalCloseX:visited 
+{
+	color:#ddd;
+}
+
+#confirmModalContainer a.modalCloseX:hover 
+{
+	color:#9bb3b3;
+}
+
+span.label 
+{
+	font-family: "Trebuchet MS",Tahoma,"Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+	color: #B39E71;
+}
+
+
+.narrowlist
+{
+	border-left: 0px solid #D28D3B;
+	border-right: 0px solid #D28D3B;
+	border-top: 1px solid #D28D3B;
+	border-bottom: 0px solid #D28D3B;
+}
+
+.lists
+{
+	border-left: 0px solid #D28D3B;
+	border-right: 0px solid #D28D3B;
+	border-top: 1px solid #D28D3B;
+	border-bottom: 0px solid #D28D3B;
+}
+
+.itemlist
+{
+	border-left: 0px solid #888;
+	border-right: 0px solid #888;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+}
+
+
+.itemlist td
+{
+	font-family: "Trebuchet MS",Tahoma,"Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+	color: #AAA;
+}
+
+.lists span
+{
+	color: #B39E71;
+}
+
+.footer span
+{
+	color: #ccc;
+}
+	
+.details span,
+.shoppingcart span
+{
+	font-family: "Trebuchet MS",Tahoma,"Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+	color: #AAA;
+}
+
+.details span.title 
+{
+	font-family: "Trebuchet MS",Tahoma,"Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+	color: #B39E71;
+}
+
+.narrowlist span 
+{
+	color: #B39E71;
+}
+	
+.lists .button, .narrowlist .button {
+	color: #ddd;
+}
+
+span.text 
+{
+	font-family: "Trebuchet MS",Tahoma,"Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+	color: #AAA;
+}
+
+span.title 
+{
+	font-family: "Trebuchet MS",Tahoma,"Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+	color: #CCC;
+}
+
+span.coltitle 
+{
+	font-family: "Trebuchet MS",Tahoma,"Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+	color: #CCC;
+}
+
+fieldset legend img 
+{
+	padding:0px 5px 0px 5px;	
+}
+
+fieldset label 
+{
+	color: #B39E71;
+}
+
+fieldset select 
+{
+	border: 1px solid #D28D3B;
+	color: #FFFFFF;
+	background-color: #666666;
+}
+
+fieldset .radioStyle 
+{
+	border: #000000 solid 1px;
+}
+
+div.continue 
+{
+	border-top: 1px solid #333;
+	background: #202328;
+	color: #D1B984;
+}
+
+span.center
+{
+	color: #bbb;
+}
+
+span.strike
+{
+	color: #DDD;
+}
+
+span.featuredtitle
+{
+	color:#D1B984;
+}
+
+table
+{
+	border: solid 1px #fff;
+}

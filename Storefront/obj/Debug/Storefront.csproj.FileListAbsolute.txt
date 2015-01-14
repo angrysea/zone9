@@ -1,0 +1,14 @@
+D:\zone9\Storefront\obj\Debug\ResolveAssemblyReference.cache
+D:\zone9\Storefront\bin\Storefront.dll
+D:\zone9\Storefront\bin\Storefront.pdb
+D:\zone9\Storefront\bin\Payflow_dotNET.dll
+D:\zone9\Storefront\bin\StorefrontModel.dll
+D:\zone9\Storefront\bin\StorefrontModel.pdb
+D:\zone9\Storefront\obj\Debug\Storefront.dll
+D:\zone9\Storefront\obj\Debug\Storefront.pdb
+D:\zone9\Storefront\bin\log4net.dll
+D:\zone9\Storefront\bin\PostSharp.Laos.dll
+D:\zone9\Storefront\bin\PostSharp.Public.dll
+D:\zone9\Storefront\bin\log4net.xml
+D:\zone9\Storefront\bin\PostSharp.Laos.xml
+D:\zone9\Storefront\bin\PostSharp.Public.xml

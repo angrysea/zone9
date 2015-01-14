@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8B6E6B7B-1904-4AD7-8C95-6C3752D0AE5E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StorefrontModel</RootNamespace>
+    <AssemblyName>StorefrontModel</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\apache\log4net-1.2.10\bin\net\2.0\release\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Payflow_dotNET, Version=4.3.1.0, Culture=neutral, PublicKeyToken=14aa1e8d77f2a97c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Payflow_dotNET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Routing">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CarrierRequest.cs" />
+    <Compile Include="CCValidator.cs" />
+    <Compile Include="EmailProcessor.cs" />
+    <Compile Include="Entities\Address.cs" />
+    <Compile Include="Entities\Admins.cs" />
+    <Compile Include="Entities\Affiliate.cs" />
+    <Compile Include="Entities\AffiliateCommission.cs" />
+    <Compile Include="Entities\AffiliateCommissionLevel.cs" />
+    <Compile Include="Entities\AffiliateProgram.cs" />
+    <Compile Include="Entities\Article.cs" />
+    <Compile Include="Entities\Carrier.cs" />
+    <Compile Include="Entities\Catalog.cs" />
+    <Compile Include="Entities\Category.cs" />
+    <Compile Include="Entities\CCTransaction.cs" />
+    <Compile Include="Entities\CheckoutTrx.cs" />
+    <Compile Include="Entities\CouponTrx.cs" />
+    <Compile Include="Entities\CreditCard.cs" />
+    <Compile Include="Entities\FeaturedProducts.cs" />
+    <Compile Include="Entities\Company.cs" />
+    <Compile Include="Entities\CountryCode.cs" />
+    <Compile Include="Entities\Coupon.cs" />
+    <Compile Include="Entities\Customer.cs" />
+    <Compile Include="Entities\CustomerReview.cs" />
+    <Compile Include="Entities\DataFeed.cs" />
+    <Compile Include="Entities\Details.cs" />
+    <Compile Include="Entities\Distributor.cs" />
+    <Compile Include="Entities\DistributorInventory.cs" />
+    <Compile Include="Entities\EMailList.cs" />
+    <Compile Include="Entities\EMailRecord.cs" />
+    <Compile Include="Entities\FeaturedGroup.cs" />
+    <Compile Include="Entities\GiftCertificate.cs" />
+    <Compile Include="Entities\GroupType.cs" />
+    <Compile Include="Entities\Invoice.cs" />
+    <Compile Include="Entities\InvoiceItem.cs" />
+    <Compile Include="Entities\LinkCategory.cs" />
+    <Compile Include="Entities\Product.cs" />
+    <Compile Include="Entities\ProductCategories.cs" />
+    <Compile Include="Entities\ProductRanking.cs" />
+    <Compile Include="Entities\ProductSpecification.cs" />
+    <Compile Include="Entities\ProductAvailability.cs" />
+    <Compile Include="Entities\Keywords.cs" />
+    <Compile Include="Entities\LandingPage.cs" />
+    <Compile Include="Entities\Link.cs" />
+    <Compile Include="Entities\MailConfiguration.cs" />
+    <Compile Include="Entities\Manufacturer.cs" />
+    <Compile Include="Entities\Note.cs" />
+    <Compile Include="Entities\Packingslip.cs" />
+    <Compile Include="Entities\PackingslipItem.cs" />
+    <Compile Include="Entities\PayFlowPro.cs" />
+    <Compile Include="Entities\ProviderConfiguration.cs" />
+    <Compile Include="Entities\PurchaseOrder.cs" />
+    <Compile Include="Entities\PurchaseOrderItem.cs" />
+    <Compile Include="Entities\RecentlyViewed.cs" />
+    <Compile Include="Entities\RecurringOrder.cs" />
+    <Compile Include="Entities\RecurringOrderItem.cs" />
+    <Compile Include="Entities\RelatedProduct.cs" />
+    <Compile Include="Entities\SalesOrder.cs" />
+    <Compile Include="Entities\SalesOrderItem.cs" />
+    <Compile Include="Entities\SalesTax.cs" />
+    <Compile Include="Entities\SearchBreadCrumb.cs" />
+    <Compile Include="Entities\SearchCountItem.cs" />
+    <Compile Include="Entities\SearchRanking.cs" />
+    <Compile Include="Entities\SearchRequest.cs" />
+    <Compile Include="Entities\SearchResult.cs" />
+    <Compile Include="Entities\SearchResultItem.cs" />
+    <Compile Include="Entities\SelectFields.cs" />
+    <Compile Include="Entities\ShippingMethod.cs" />
+    <Compile Include="Entities\ShoppingCart.cs" />
+    <Compile Include="Entities\SimilarProduct.cs" />
+    <Compile Include="Entities\SiteMapEntry.cs" />
+    <Compile Include="Entities\SortFields.cs" />
+    <Compile Include="Entities\SourceURLItem.cs" />
+    <Compile Include="Entities\Specification.cs" />
+    <Compile Include="Entities\StateCode.cs" />
+    <Compile Include="Entities\Availability.cs" />
+    <Compile Include="Entities\Store.cs" />
+    <Compile Include="Entities\Task.cs" />
+    <Compile Include="Entities\SiteTheme.cs" />
+    <Compile Include="Entities\Users.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\UserTotals.cs" />
+    <Compile Include="Entities\Variation.cs" />
+    <Compile Include="Entities\WebStat.cs" />
+    <Compile Include="Entities\WishList.cs" />
+    <Compile Include="Entities\WishListProduct.cs" />
+    <Compile Include="EntityDAO.cs" />
+    <Compile Include="KeywordProcessor.cs" />
+    <Compile Include="PartialEntities.cs" />
+    <Compile Include="PayFlowProcessor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Entities.cs" />
+    <Compile Include="SalesOrdersProcessor.cs" />
+    <Compile Include="SearchBreadCrumbs.cs" />
+    <Compile Include="SearchProcessor.cs" />
+    <Compile Include="ShippingProcessor.cs" />
+    <Compile Include="UpsRequester.cs" />
+    <Compile Include="UPSXml\Access.cs" />
+    <Compile Include="UPSXml\AVRequest.cs" />
+    <Compile Include="UPSXml\AVResponse.cs" />
+    <Compile Include="UPSXml\RateRequest.cs" />
+    <Compile Include="UPSXml\RateResponse.cs" />
+    <Compile Include="UserEntities.cs" />
+    <Compile Include="UserEntities\DetailedInvoice.cs" />
+    <Compile Include="UserEntities\DetailedPackingslip.cs" />
+    <Compile Include="UserEntities\DetailedSalesOrder.cs" />
+    <Compile Include="UserEntities\ItemsInCart.cs" />
+    <Compile Include="UserEntities\ListItem.cs" />
+    <Compile Include="UserEntities\NoteCount.cs" />
+    <Compile Include="UserEntities\ProductNo.cs" />
+    <Compile Include="UserEntities\SalesOrderIdList.cs" />
+    <Compile Include="UserEntities\SearchListItem.cs" />
+    <Compile Include="UserEntities\ShoppingCartListItem.cs" />
+    <Compile Include="UserEntities\TotalCharges.cs" />
+    <Compile Include="USPSRequestor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="USPSXml\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

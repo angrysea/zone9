@@ -1,0 +1,5 @@
+C:\codelabs\StorefrontModel\bin\Release\StorefrontModel.dll
+C:\codelabs\StorefrontModel\bin\Release\StorefrontModel.pdb
+C:\codelabs\StorefrontModel\obj\Release\ResolveAssemblyReference.cache
+C:\codelabs\StorefrontModel\obj\Release\StorefrontModel.dll
+C:\codelabs\StorefrontModel\obj\Release\StorefrontModel.pdb

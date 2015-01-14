@@ -1,0 +1,591 @@
+﻿body, p
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+p
+{
+	float: left;
+}
+
+div.header
+{
+	clear: both;
+	float: left;
+    height: 10em;
+	width: 100%;
+	padding: 0 0 1em 0;
+}
+
+div.container
+{
+	margin:0px;
+	display: inline;
+}
+
+div.middle
+{
+	clear: both;
+	float: left;
+	width: 800pt;
+	display: block;
+}
+
+div.left
+{
+	float:left;
+	width: 14em; 
+	margin:0;
+	height: 100%;
+	display: inline;
+}
+
+div.content
+{
+	display: inline;
+	float: left;
+	width: 620pt;
+	height: 100%;
+	padding: 0 0 0 2em;
+}
+
+div.footer
+{
+	clear: both;
+	float: left;
+	width: 100%;
+	padding: 2em 0 0 0;
+	text-align: center
+}
+
+div.links
+{
+	padding: 2em 0 0 0;
+	text-align: center
+}
+
+
+select,
+input,
+textarea
+{
+	font-size: 8pt;
+}
+
+
+.smallgr,
+.small	 
+{
+	font-size: 8pt; 
+}
+
+.smallnote 
+{ 
+	padding-left: 6em; 
+	font-size: 8pt; 
+}
+
+.indentsm 
+{
+	margin-left: 1.0em
+}
+
+.indentlg 
+{
+	margin-left: 2.5em
+}
+
+.ih_breadcrumbs	
+{
+	line-height:2.8em;
+	font-size: 8pt; 
+	font-weight: bold
+}
+
+a:link.nav, 	
+a:visited.nav,
+a:hover.nav,
+a:link.subnav, 	 
+a:visited.subnav,
+a:hover.subnav,
+a:link.quickfind,
+a:visited.quickfind,
+a:hover.quickfind
+{
+	text-decoration: none; 
+	font-size: 8pt;
+}
+
+
+a:link.subnav,
+a:visited.subnav,
+a:hover.subnav,
+a:link.addlinks,
+a:visited.addlinks,
+a:hover.addlinks   
+{
+	text-decoration: none; 
+	font-size: 7pt; 
+	font-weight: bold
+}
+
+a:link.footer, 
+a:visited.footer,
+a:hover.footer 	 
+{
+	text-decoration: none; 
+	font-size: 8pt;
+}
+
+.breadcrumbs_t,
+.cat_high,
+a:link.breadcrumbs,
+a:visited.breadcrumbs,
+a:hover.breadcrumbs
+{
+	text-decoration: none; 
+	font-size: 8pt; 
+	font-weight: bold
+}
+
+.errorText,
+.generaltitle,
+.highlighttitle
+{
+	text-decoration: none; 
+	font-size: 9pt; 
+	font-weight: bold
+}
+
+.producttitle, 
+.producttitlered 
+{
+	text-decoration: none; 
+	font-size: 12pt; 
+	font-weight: bold
+}
+
+.productdesc 
+{
+	text-decoration: none; 
+	font-size: 8pt
+}
+
+.productprice 
+{
+	text-decoration: none; 
+	font-size: 10pt; 
+	font-weight: bold
+}
+
+ul           
+{ 
+	list-style-image: url('/Content/images/bullet.gif');
+	margin-left: 20px; 
+	margin-top: 0px 
+}
+
+h1	
+{
+	font-size: 12pt; 
+	font-weight:bold;
+}
+
+h2	
+{
+	font-size: 10pt; 
+	font-weight:bold; 
+	line-height:20px;
+}
+
+h3	
+{
+	font-size: 10pt; 
+	font-weight:bold; 
+	line-height:20px;
+}
+
+h4	
+{
+	font-size: 16pt; 
+	font-weight:bold;
+	line-height:1.2em;
+}
+
+.title 
+{
+	font-size: 18pt; 
+	font-weight:bold;
+}
+
+
+ul.navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: .5em 0;
+}
+
+ul.navigation#topbar {
+	list-style-type: none;
+	margin: 0;
+}
+
+ul.navigation .left
+{
+	float: left;
+}
+
+ul.navigation .right
+{
+	float: right;
+	text-align: right;
+}
+
+ul.navigation li a  
+{
+	display: block;
+	width: 14em;
+	height: 2em;
+	font-size: 8pt; 
+	font-weight:bold;	
+}
+
+
+div.salesorderstripe
+{
+	float: left;
+	text-align: left;
+	line-height: 100%;
+	margin: 0;
+}
+
+div.salesorderCol
+{
+	text-align: left;
+	display: block;
+	margin: 0;
+	padding: 6pt;
+	height: 80pt;
+	width: 180pt;
+	line-height: 100%;
+}
+
+.salesorderstripe span
+{
+	clear: both;
+	padding: 0 0 0 0;
+	display: block;
+	font-weight: normal;
+	text-align: left;
+	margin-bottom: 2px;
+	float: left;
+	width: 168pt;
+}
+
+.lists
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 6pt;
+	display: block;
+	padding: 10px 0 10px 20px;
+}
+
+.listtable
+{
+	border-spacing: 2px;
+	padding: 4px;
+	border: none;
+}
+
+th
+{
+    white-space: nowrap;
+    margin: 0px;
+    font-size: 8pt;
+    font-weight: bold;
+    line-height: 12pt;
+    text-align: left;
+}
+
+td
+{
+    white-space: nowrap;
+    text-align: left;
+    font-size: 7pt;
+    font-weight: normal;
+    padding: 0 2pt 0 2pt;
+}
+
+.numericth
+{
+	 white-space: nowrap;
+	 text-align: right;
+}
+
+th.center
+{
+	 white-space: nowrap;
+	 text-align: center;
+}
+
+.numerictd
+{
+	 white-space: nowrap;
+	 text-align: right;
+}
+
+td.center
+{
+	 white-space: nowrap;
+	 text-align: center;
+}
+
+fieldset
+{
+	font-size: 9pt;
+	display: block;
+}
+
+
+.page
+{
+	display: block;
+	min-height: 400pt;
+	margin: 2em 1em 2em 1em;
+}
+
+.hiddenpage
+{
+	display: none;
+	position: absolute; 
+	z-index: -1;
+}
+
+fieldset legend
+{	
+	border-width:0px 1px;
+	border-style:solid;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size: 10pt;
+	letter-spacing:2px;
+	padding:2px 5px;
+	top: -12px;
+	
+}
+	 
+fieldset legend img 
+{
+	padding:0px 5px 0px 5px;	
+}
+
+label 
+{
+	display: block;
+	float: left;
+	width: 160px;
+	text-align: right;
+	margin: 10px 5px 0px 0px;
+}
+
+input
+{
+	width: 220px;
+	margin: 5px 0px 0px 0px;
+	border-style: inset inset inset solid;
+	padding: 1px 2px;
+}
+
+input.small
+{
+	width: 30px;
+	margin: 5px 0px 0px 0px;
+	border-style: inset inset inset solid;
+	padding: 1px 2px;
+}
+
+textarea 
+{
+	width: 220px;
+	height: 60px;
+	margin: 5px 0px 0px 0px;
+	border-width: 1px 1px 4px 1px;
+	border-style: inset inset inset solid;
+	padding: 1px 2px;
+}
+
+select 
+{
+	width: 225px;
+	margin: 5px 0px 0px 0px;
+	border-width: 1px 1px 4px 1px;
+	border-style: inset inset inset solid;
+	padding: 1px 2px;
+}
+
+.radioStyle {
+	width: 20px;
+	border-style: none none none none;
+	border-width: 0 0 0 0;
+	vertical-align: bottom;
+	margin: 10px 5px 0px 0px;
+}
+
+fieldset span 
+{
+	font-size: 8pt;
+	margin: 10px 5px 0px 0px;
+}
+
+span.input 
+{
+	font-size: 8pt;
+	margin: 5px 0px 0px 0px;
+	border-width: 1px 1px 4px 1px;
+	border-style: inset inset inset solid;
+	padding: 1px 2px;
+}
+
+.frame 
+{
+	width: 400pt; 
+	padding: 20px 0 4px 20px;
+}
+
+.wideframe 
+{
+	padding: 20px 0 4px 20px;
+}
+
+.shortframe 
+{
+	width: 98%; 
+	padding: 20px 20px 10px 0;
+}
+
+.actions 
+{
+	line-height: normal;
+	height: 50px;
+	padding: 12px 0 0 0;
+}
+
+.actions ul 
+{
+	right: 0;
+}
+
+.actions li 
+{
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+.button
+{
+	font-size: 7pt;
+	border-width:2px;
+	border-style:solid;
+	font-weight:bold;
+	width:90px;
+	padding:2px;
+	margin:0px auto;
+	display: inline;
+}
+
+#confirmModalOverlay 
+{
+	cursor:wait;
+}
+
+#confirmModalContainer 
+{
+	font-size: 1.0em;
+	height: 100%;
+	height:140px; 
+	width:420px; 
+	text-align:left; 
+}
+
+#confirmModalContainer .header 
+{
+	height:30px; 
+	width:100%; 
+	font-size:1.1em; 
+	font-weight:bold; 
+	line-height:30px;
+}
+
+#confirmModalContainer .header span 
+{
+	padding-left:8px;
+}
+
+#confirmModalContainer .message 
+{
+	text-align: center; 
+	margin: 0; 
+	padding: 12px 4px; 
+	font-size: 1em;
+}
+
+#confirmModalContainer .buttons 
+{
+	width:160px; 
+	float:right; 
+	padding:10px 8px 0;
+} 
+
+#confirmModalContainer .buttons div 
+{
+	float:right; 
+	margin-left:8px; 
+	width:70px; 
+	height:26px; 
+	font-weight:bold; 
+	text-align:center; 
+	cursor:pointer;
+} 
+
+#simplemodal-container a.modalCloseImg 
+{
+    background:url(/Content/images/x.png) no-repeat; 
+    width:25px; 
+    height:29px; 
+    display:inline; 
+    z-index:3200; 
+    position:absolute; 
+    top:-15px; 
+    right:-18px; 
+    cursor:pointer;
+}
+
+#confirmModalContainer a.modalCloseImg 
+{
+    background:url(/Content/images/x.png) no-repeat; 
+    width:25px; 
+    height:29px; 
+    display:inline; 
+    z-index:3200; 
+    position:absolute; 
+    top:-15px; 
+    right:-18px; 
+    cursor:pointer;
+}
+
+#confirmModalContainer a.modalCloseX,
+#confirmModalContainer a.modalCloseX:link,
+#confirmModalContainer a.modalCloseX:active,
+#confirmModalContainer a.modalCloseX:visited 
+{
+	background:url(/Content/images/x.png) no-repeat; 
+	text-decoration:none; 
+	font-weight:bold; 
+	font-size:1.1em; 
+	position:absolute; 
+	top:-1px; 
+	left:400px; 
+}

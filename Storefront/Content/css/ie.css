@@ -1,0 +1,11 @@
+﻿.alpha-shadow div 
+{
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/shadow2.png', sizingMethod='crop');
+  background: none;
+}
+
+.disabled
+{
+	filter: alpha(opacity=40)
+}
+
